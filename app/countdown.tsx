@@ -25,8 +25,8 @@ export default function Countdown({ enddate }: { enddate: string }) {
 
   return (
     <div className="border-2 border-black rounded text-center px-8 py-4 text-2xl my-4">
-      L'ICO aura lieu dans : {days} jours, {hours} heures, {minutes} minutes et{" "}
-      {seconds} secondes
+      L&aposICO aura lieu dans : {days} jours, {hours} heures, {minutes} minutes
+      et {seconds} secondes
     </div>
   );
 }

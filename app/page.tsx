@@ -16,14 +16,14 @@ export default function Home() {
         <p className="my-4">
           Les NFT (Non-Fungible Tokens) sont des actifs numériques uniques et
           sécurisés qui peuvent être utilisés pour stocker les informations
-          d'identification sous forme cryptée.
+          d&aposidentification sous forme cryptée.
         </p>
         <p className="my-4">
-          Notre solution permet aux utilisateurs de contrôler l'accès à leurs
-          informations personnelles en émettant des NFT à des tiers pour prouver
-          leur identité ou leur propriété. Notre solution offre une alternative
-          à la gestion d'identité traditionnelle, qui est vulnérable aux
-          cyberattaques et aux violations de données.
+          Notre solution permet aux utilisateurs de contrôler l&aposaccès à
+          leurs informations personnelles en émettant des NFT à des tiers pour
+          prouver leur identité ou leur propriété. Notre solution offre une
+          alternative à la gestion d&aposidentité traditionnelle, qui est
+          vulnérable aux cyberattaques et aux violations de données.
         </p>
         <a href="/whitepaper.pdf" className="underline">
           Cliquez ici pour consulter notre white paper
