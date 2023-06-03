@@ -6,6 +6,15 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: { // Limiting the theme so the colors are consistent
+      text: "#2b2b2b",
+      background: "#e1e1e1",
+      primary: "#43508f",
+      secondary: "#353a53",
+      accent: "#6676b2",
+    },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
