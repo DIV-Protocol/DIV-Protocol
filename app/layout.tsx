@@ -16,11 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>
-        <Navbar />
-        <div className="w-full h-fit p-4">
-          {children}
-        </div>
+      <body className={font.className + " bg-transparent overflow-x-hidden"}>
+        {children}
       </body>
     </html>
   )
