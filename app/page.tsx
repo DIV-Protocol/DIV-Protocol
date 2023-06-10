@@ -13,8 +13,8 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <Link href="#" className="self-center md:text-3xl text-center text-lg">Road Map</Link>
-        <Link href="#" className="self-center md:text-3xl text-center text-lg">Whitepaper</Link>
+        <Link href="#" className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Road Map</Link>
+        <Link href="/whitepaper.pdf" className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Whitepaper</Link>
       </nav>
       <section className="flex flex-row items-center">
         <svg viewBox="0 0 1196 656" xmlns="http://www.w3.org/2000/svg">
