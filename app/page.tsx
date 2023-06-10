@@ -24,8 +24,8 @@ export default function Home() {
             <path d="M401 265.911V338.108C401 353.298 390.98 372.988 378.691 382.176L275.278 458.873C266.203 465.624 254.104 469 242.004 469C229.905 469 217.805 465.624 208.731 458.873L172.432 432.058L401 265.911Z" fill="#6676B2" />
           </g>
           <defs>
-            <filter id="filter0_i_33_6" x="83" y="94" width="322" height="379" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+            <filter id="filter0_i_33_6" x="83" y="94" width="322" height="379" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+              <feFlood floodOpacity="0" result="BackgroundImageFix" />
               <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
               <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
               <feOffset dx="7" dy="23" />
@@ -47,16 +47,16 @@ export default function Home() {
       </section>
       <section className="flex items-center gap-[15vw] px-8 justify-center">
         <svg className="px-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 218 218" fill="none">
-          <path d="M0 0H218V218H0V0Z" fill="white" fill-opacity="0.01" />
-          <path d="M109 90.8333C126.558 90.8333 140.792 76.5998 140.792 59.0417C140.792 41.4836 126.558 27.25 109 27.25C91.4419 27.25 77.2083 41.4836 77.2083 59.0417C77.2083 76.5998 91.4419 90.8333 109 90.8333Z" fill="#6676B2" stroke="#2B2B2B" stroke-width="15.0579" stroke-linecap="round" stroke-linejoin="round" />
-          <path d="M27.25 185.3V190.75H190.75V185.3C190.75 164.951 190.75 154.777 186.79 147.005C183.307 140.169 177.748 134.61 170.912 131.127C163.139 127.167 152.965 127.167 132.617 127.167H85.3833C65.0348 127.167 54.8606 127.167 47.0885 131.127C40.2518 134.61 34.6935 140.169 31.2101 147.005C27.25 154.777 27.25 164.951 27.25 185.3Z" fill="#6676B2" stroke="#2B2B2B" stroke-width="15.0579" stroke-linecap="round" stroke-linejoin="round" />
+          <path d="M0 0H218V218H0V0Z" fill="white" fillOpacity="0.01" />
+          <path d="M109 90.8333C126.558 90.8333 140.792 76.5998 140.792 59.0417C140.792 41.4836 126.558 27.25 109 27.25C91.4419 27.25 77.2083 41.4836 77.2083 59.0417C77.2083 76.5998 91.4419 90.8333 109 90.8333Z" fill="#6676B2" stroke="#2B2B2B" strokeWidth="15.0579" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M27.25 185.3V190.75H190.75V185.3C190.75 164.951 190.75 154.777 186.79 147.005C183.307 140.169 177.748 134.61 170.912 131.127C163.139 127.167 152.965 127.167 132.617 127.167H85.3833C65.0348 127.167 54.8606 127.167 47.0885 131.127C40.2518 134.61 34.6935 140.169 31.2101 147.005C27.25 154.777 27.25 164.951 27.25 185.3Z" fill="#6676B2" stroke="#2B2B2B" strokeWidth="15.0579" strokeLinecap="round" strokeLinejoin="round" />
         </svg>
         <p className="text-center 2xl:text-5xl md:text-3xl sm:text-xl text-sm">Notre solution permet aux utilisateurs de <b>contrôler l&#39;accès</b> à leurs informations personnelles en émettant des <b>NFT</b> à des tiers pour prouver leur identité ou leur propriété.</p>
       </section>
       <section className="flex flex-col items-center">
         <p className="text-center 2xl:text-5xl md:text-3xl sm:text-xl text-sm relative top-[5vh] sm:top-[10vh] md:top-[15vh] -left-[15vw] px-[20vw]"> Elle offre une alternative à la gestion d&#39;identité traditionnelle, qui est <b>vulnérable aux cyberattaques</b> et aux violations de données.</p>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 370" fill="none">
-          <mask id="mask0_4_485" style={{ "mask-type": "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="579">
+          <mask id="mask0_4_485" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="579">
             <path d="M0 96L48 112C96 128 192 160 288 192C384 224 480 256 576 250.7C672 245 768 203 864 160C960 117 1056 75 1152 48C1248 21 1344 11 1392 5.3L1440 0V320H1392C1344 320 1248 320 1152 320C1056 320 960 320 864 320C768 320 672 320 576 320C480 320 384 320 288 320C192 320 96 320 48 320H0V96Z" fill="#B0B6CE" />
             <path d="M0 306H1440V579H0V306Z" fill="#B0B6CE" />
           </mask>
