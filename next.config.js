@@ -4,7 +4,16 @@ const nextConfig = {
     images: {
         unoptimized: true,
     },
-    basePath: "/DIV-protocol"
+    basePath: "/DIV-Protocol",
+    assetPrefix: "/DIV-Protocol",
+    async rewrites() {
+        return [
+            {
+                source: '/images/:path*',
+                destination: '/DIV-Protocol/images/:path*', // The :path parameter isn't used here so will be automatically passed in the query
+            },
+        ]
+    },
 }
 
 module.exports = nextConfig
