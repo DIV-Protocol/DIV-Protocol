@@ -3,7 +3,8 @@ const nextConfig = {
     output: "export",
     images: {
         unoptimized: true,
-    }
+    },
+    basePath: "/DIV-protocol"
 }
 
 module.exports = nextConfig
