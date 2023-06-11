@@ -7,14 +7,14 @@ export default function Home() {
       <nav className="w-full h-[15vh] bg-[#B0B6CE] grid grid-cols-[1fr_0.5fr_0.5fr] gap-[7vw] px-[5vw]">
         <div className="relative h-full w-full">
           <Image
-            src="/images/icon.png"
+            src="images/icon.png"
             fill={true}
             alt="DIV Protocol"
             className="object-contain"
           />
         </div>
         <Link href="#" className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Road Map</Link>
-        <Link href="/whitepaper.pdf" className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Whitepaper</Link>
+        <Link href="whitepaper.pdf" className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Whitepaper</Link>
       </nav>
       <section className="flex flex-row items-center">
         <svg viewBox="0 0 1196 656" xmlns="http://www.w3.org/2000/svg">
