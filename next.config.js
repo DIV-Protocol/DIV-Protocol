@@ -4,7 +4,7 @@ const nextConfig = {
         loader: 'akamai',
         path: '',
     },
-    assetPrefix: './',
+    assetPrefix: 'https://div-protocol.github.io/DIV-Protocol/',
 }
 
 module.exports = nextConfig
