@@ -13,7 +13,7 @@ export default function Home() {
             className="object-contain"
           />
         </div>
-        <Link href={"#"} className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Road Map</Link>
+        <Link href={"/roadmap.pdf"} className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Road Map</Link>
         <Link href={"/whitepaper.pdf"} className="self-center md:text-3xl text-center text-lg hover:-translate-y-1 hover:scale-105 transition-all">Whitepaper</Link>
       </nav>
       <section className="flex flex-row items-center">
@@ -55,6 +55,9 @@ export default function Home() {
       </section>
       <section className="flex flex-col items-center">
         <p className="text-center 2xl:text-5xl md:text-3xl sm:text-xl text-sm relative top-[5vh] sm:top-[10vh] md:top-[15vh] -left-[15vw] px-[20vw]"> Elle offre une alternative à la gestion d&#39;identité traditionnelle, qui est <b>vulnérable aux cyberattaques</b> et aux violations de données.</p>
+        <a className="underline hover:scale-105 hover:-translate-y-1 text-center 2xl:text-5xl md:text-3xl sm:text-xl text-sm relative top-[5vh] sm:top-[10vh] md:top-[15vh] -left-[15vw] px-[20vw]" href="mailto:d.i.v.protocol@gmail.com">
+          Contactez nous à d.i.v.protocol@gmail.com
+        </a>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 370" fill="none">
           <mask id="mask0_4_485" style={{ maskType: "alpha" }} maskUnits="userSpaceOnUse" x="0" y="0" width="1440" height="579">
             <path d="M0 96L48 112C96 128 192 160 288 192C384 224 480 256 576 250.7C672 245 768 203 864 160C960 117 1056 75 1152 48C1248 21 1344 11 1392 5.3L1440 0V320H1392C1344 320 1248 320 1152 320C1056 320 960 320 864 320C768 320 672 320 576 320C480 320 384 320 288 320C192 320 96 320 48 320H0V96Z" fill="#B0B6CE" />
